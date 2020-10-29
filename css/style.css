@@ -1,0 +1,65 @@
+body{
+   overflow: hidden;
+   background-color: white;  
+   font-family: 'Press Start 2P', cursive;  
+}
+#container{
+   display: grid; 
+   margin:0 auto;
+   width: 520px;
+   height:520px;
+   border: 4px solid black;
+   border-radius: 12px; 
+   box-shadow: 5px 10px #adadad;
+   padding: 2px;
+}
+
+.cell{
+    border: .2px solid black;
+    border-radius: 4px; 
+}
+
+h2{
+   text-align: center;
+   font-stretch: expanded;
+   color:tomato;
+}
+
+.buttons{
+   float: right;
+   background-color: transparent;
+  padding: 20px;
+   margin:0;
+   width: 50%;
+  text-align: center;
+}
+.buttons button{
+   border: none;
+   background-color: transparent;
+   font-size: 10px;
+   font-family: 'Press Start 2P', cursive; 
+   color: chartreuse;
+}
+.buttons button:hover{
+   transform: scale(1.1,1.1);
+}
+
+.buttons button:focus{
+   transform: scale(1.1,1.1);
+   border: none;
+   outline: none!important;
+}
+#white {
+color:rgb(170, 170, 170);
+}
+#black{
+   color:black;
+}
+#random{
+   color: rgb(100, 16, 255);
+}
+#reset{
+   color:violet;
+}
+
+
